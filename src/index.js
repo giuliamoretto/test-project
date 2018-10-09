@@ -13,7 +13,7 @@ function App() {
   const value5 = obj1.next().value;
   const obj2 = delayGenerator();
   obj2.next().value.then(v => {
-    console.log("delayGenerator", obj2.next());
+    //console.log("delayGenerator", obj2.next());
   });
 
   return (
